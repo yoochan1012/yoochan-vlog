@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="tmi.css">
+
+
+    <style>
+
+        body {
+            height: 150%;
+            width: 75%;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+
+
+
+        fieldset {
+            border-color: black;
+            margin: 0 auto;
+            background-color: aquamarine;
+            width: 500px;
+            border-radius: 10px;
+            box-shadow: gold 10px 10px 10px;
+        }
+
+    
+        .name, .univ, .favorites {
+            color: blue;
+        }
+
+        textarea {
+            background-color: lightskyblue;
+            width: 320px;
+            height: 16px;
+            float: right;
+        }
+
+        .noresize {
+            resize: none;
+        }
+
+        button {
+            background-color: lightgreen;
+            border-color: rgb(255, 255, 74);
+            box-shadow: mediumspringgreen 2px 2px 2px;
+            width: 100px;
+            height: 32px;
+        }
+
+
+        p {
+    font-family: "배달의민족 한나는 열한살";
+    margin: 20px;
+    font-size: 150%;
+        }
+
+        h3 {
+            font-family: "배달의민족 한나는 열한살";
+            font-size: 222%;
+        }
+
+        .footer {
+            width: 100%;
+            height: 20%;
+            clear: both;
+            background: #00b050;
+            font-size: 150%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="header"><span class="n919">#9191</span>4377#</header>
+    <sel class="sel">
+    <ul>
+        <li><a href="Home_최유찬.html">Home</a></li>
+        <li><a href="profile.html"><span class="highlight">Profile</span></a></li>
+        <li><a href="Stadium.html">Stadium</a></li>
+        <li><a href="Traffic.html">Traffic</a></li>
+    </ul>
+    </sel>
+
+    
+    <div class="colour">
+    <fieldset>
+    <h3>Profile</h3>
+        <p class="name">이름: <textarea class="noresize" readonly>최유찬</textarea></p>
+        <p class="univ">소속 학과: <textarea class="noresize" readonly>정보보호학전공</textarea></p>
+        <p class="favorites">좋아하는 것: <textarea class="noresize" readonly>지도, 야구, 축구</textarea></p>
+
+    </fieldset>
+
+    <p align="center">
+        컬러 바꾸기
+        <button onclick="green()">green</button>
+        <button onclick="red()">red</button>
+        <button onclick="blue()">blue</button>
+    </p>
+
+    <p class="ys">
+        <fieldset>
+            <h3>양식 모음</h3>
+            입력 창: <input type="text" name="name" placeholder="qwerty"><br>
+            비번 창: <input type="password" name="pw" placeholder="******"><br>
+            버튼: <input type="button" value="button"><br>
+            선택란: <input type="checkbox" value="checkbox-1"><input type="checkbox" value="checkbox-2"><br>
+            색고르기: <input type="color" name="color"><br>
+            날짜 창: <input type="date" name="date"><br>
+            시간 창: <input type="datetime" name="datetime">
+
+
+        </fieldset>
+    </p>
+    </div>
+
+    <script src="color.js"></script>
+
+    <footer class="footer">Footer</footer>
+</body>
+</html>
