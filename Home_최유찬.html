@@ -8,6 +8,25 @@
     <title>Home_최유찬</title>
     <link rel="stylesheet" href="tmi.css">
     <link rel="stylesheet" href="sementic.css">
+
+    <style>
+        .contact {
+            background-color: bisque;
+            margin: 30px;
+        }
+        form {
+            margin: 30px;
+            font-size: 50%;
+        }
+
+        .con {
+            margin: 30px;
+        }
+
+        .intro {
+            font-size: 70%;
+        }
+    </style>
  
 </head>
 <body>
@@ -19,11 +38,23 @@
             <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
         </sel>
-        <section class="section">Section<br>
-            <div style="text-align: center;"><video src="홈페이지.mp4" width=75%>
-            </video>
+        <section class="section"><b>Section</b><br>
+            <span class="intro">소개 영상</span>
+            <div style="text-align: center;"><video height="400" width="400" controls></video>
+                <source src="홈페이지.mp4" width=75%></div>
         </section>
         <aside class="aside"><div style="text-align:center;">Aside</div>
+            <div class="contact">
+                <span class="con"><b>문의하기</b></span>
+                <form>
+                    이름: <input type="name" id = "name" placeholder="이름을 입력하세요.." size=20><br>
+                    이메일: <input type="email" placeholder="이메일을 입력하세요.." size=20><br>
+                    문의할 내용: <br>
+                    <textarea cols="30" rows="10" placeholder="문의사항.."></textarea><br>
+                    <button id="submit" onclick="submit()">제출</button><br>
+                    <br>
+                </form>
+            </div>
         </aside>
         <footer class="footer">Footer<br>
             <p class="info">이 페이지는 최유찬의 페이지입니다.</p>
