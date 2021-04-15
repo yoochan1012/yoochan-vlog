@@ -5,7 +5,7 @@
     height: 75%;
     float: left;
     background: rgb(255, 136, 0);
-    font-size: 150%;
+    font-size: 230%;
     text-align: center;
 }
 
@@ -14,7 +14,7 @@
     height:75%;
     float: right;
     background: rgb(220, 2, 50);
-    font-size: 150%;
+    font-size: 230%;
 }
 
 
@@ -23,6 +23,14 @@
     height: 20%;
     clear: both;
     background: #00b050;
-    font-size: 150%;
+    font-size: 230%;
     text-align: center;
+}
+
+.footer.info {
+    font-size: 150%;
+}
+
+.footer:hover {
+    color: blue;
 }
