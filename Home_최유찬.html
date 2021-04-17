@@ -4,60 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="HTML5, CSS3, JavaScript, Web design, 웹디자인">
-    <title>Home_최유찬</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="tmi.css">
-    <link rel="stylesheet" href="sementic.css">
+
 
     <style>
-        .contact {
-            background-color: bisque;
-            margin: 30px;
-        }
-        form {
-            margin: 30px;
-            font-size: 50%;
+
+        body {
+            height: 150%;
+            width: 75%;
+            margin: 0;
+            padding: 0;
+            float: right;
         }
 
-        .con {
-            margin: 30px;
+        .footer {
+            width: 100%;
+            height: 20%;
+            clear: both;
+            background: #00b050;
+            font-size: 150%;
+            text-align: center;
         }
 
-        .intro {
-            font-size: 70%;
+        fieldset {
+            background: linear-gradient(45deg, #239fe9, #44d5f3);
+            box-shadow: 3px 3px 3px;
+        }
+
+        button {
+            height: 32px;
+            width: 100px;
         }
     </style>
- 
 </head>
 <body>
-        <header class="header"><span class="n919">#9191</span>4377#</header>
-        <sel class="sel">
-        <ul>
-            <li><a href="Home_최유찬.html"><span class="highlight">Home</span></a></li>
+    <header class="header"><span class="n919">#9191</span>4377#</header>
+    <sel class="sel">
+    <ul>    
+            <li><a href="Home_최유찬.html">Home</span></a></li>
             <li><a href="profile.html">Profile</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-        </sel>
-        <section class="section"><b>Section</b><br>
-            <span class="intro">소개 영상</span>
-            <div style="text-align: center;"><video height="400" width="400" controls></video>
-                <source src="홈페이지.mp4" width=75%></div>
-        </section>
-        <aside class="aside"><div style="text-align:center;">Aside</div>
-            <div class="contact">
-                <span class="con"><b>문의하기</b></span>
-                <form>
-                    이름: <input type="name" id = "name" placeholder="이름을 입력하세요.." size=20><br>
-                    이메일: <input type="email" placeholder="이메일을 입력하세요.." size=20><br>
-                    문의할 내용: <br>
-                    <textarea cols="30" rows="10" placeholder="문의사항.."></textarea><br>
-                    <button id="submit" onclick="submit()">제출</button><br>
-                    <br>
-                </form>
-            </div>
-        </aside>
-        <footer class="footer">Footer<br>
-            <p class="info">이 페이지는 최유찬의 페이지입니다.</p>
-        </footer>
+            <li><a href="portfolio.html"><span class="highlight">Portfolio</a></li>
+    </ul>
+    </sel>
+
+    <div class="table">
+        <fieldset>
+            <b>Name</b> &nbsp; 최유찬 <hr>
+            <b>Project</b>
+            <br><br><br><br><br><hr>
+            <b>Awards</b>
+            <br><br><br><br><br><hr>
+            <form>
+                <h4>이메일: <input type="email" placeholder="이메일을 입력하세요.." size=20></h4>
+                <h4>문의할 내용:</h4>
+                <textarea cols="100" rows="10" placeholder="문의사항.."></textarea><br>
+                <button id="submit" onclick="submit()">제출</button>
+                <button id="cancel" onclick="cancel()">취소</button>
+                <br>
+            </form>
+        </fieldset>
+    </div>
+    <footer class="footer">Footer</footer>
 </body>
 </html>
