@@ -13,8 +13,9 @@
         body {
             height: 150%;
             width: 75%;
-            margin: auto;
+            margin: 0;
             padding: 0;
+            float: right;
         }
 
         .footer {
@@ -27,8 +28,13 @@
         }
 
         fieldset {
-            background: linear-gradient(0deg, #92f1d5, #abf6bd);
+            background: linear-gradient(45deg, #239fe9, #44d5f3);
             box-shadow: 3px 3px 3px;
+        }
+
+        button {
+            height: 32px;
+            width: 100px;
         }
     </style>
 </head>
@@ -46,14 +52,19 @@
         <fieldset>
             <b>Name</b> &nbsp; 최유찬 <hr>
             <b>Project</b>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br><hr>
+            <br><br><br><br><br><hr>
+            <b>Awards</b>
+            <br><br><br><br><br><hr>
+            <form>
+                <h4>이메일: <input type="email" placeholder="이메일을 입력하세요.." size=20></h4>
+                <h4>문의할 내용:</h4>
+                <textarea cols="100" rows="10" placeholder="문의사항.."></textarea><br>
+                <button id="submit" onclick="submit()">제출</button>
+                <button id="cancel" onclick="cancel()">취소</button>
+                <br>
+            </form>
         </fieldset>
     </div>
-    <br>
     <footer class="footer">Footer</footer>
 </body>
 </html>
