@@ -61,7 +61,7 @@ a:hover {
     color:palegreen;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     html, body {
         width: 100%;
     }
