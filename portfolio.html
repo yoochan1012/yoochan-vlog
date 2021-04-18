@@ -11,11 +11,9 @@
     <style>
 
         body {
-            height: 150%;
+            height: 1080px;
             width: 75%;
-            margin: 0;
-            padding: 0;
-            float: right;
+            background-color: #33cc33;
         }
 
         .footer {
@@ -28,7 +26,7 @@
         }
 
         fieldset {
-            background: linear-gradient(45deg, #239fe9, #44d5f3);
+            background: linear-gradient(45deg, #239fe9, #44d5f3) no-repeat;
             box-shadow: 3px 3px 3px;
         }
 
@@ -36,11 +34,15 @@
             height: 32px;
             width: 100px;
         }
+
+        /* form {
+            background-color: chartreuse;
+        } */
         
-        @media only screen and (max-width: 480px) {
-        body, .footer, fieldset {
-        width: 100%;
-         }
+        @media screen and (max-width: 768px) {
+        body, fieldset, .footer {
+        width: 100%;}}
+        fieldset {width: 92%;};
     </style>
 </head>
 <body>
@@ -60,16 +62,19 @@
             <br><br><br><br><br><hr>
             <b>Awards</b>
             <br><br><br><br><br><hr>
-            <form>
-                <h4>이메일: <input type="email" placeholder="이메일을 입력하세요.." size=20></h4>
-                <h4>문의할 내용:</h4>
-                <textarea cols="100" rows="10" placeholder="문의사항.."></textarea><br>
-                <button id="submit" onclick="submit()">제출</button>
-                <button id="cancel" onclick="cancel()">취소</button>
-                <br>
-            </form>
+            
+    <form><b>Form</b>
+        <h4>이메일: <input type="email" placeholder="이메일을 입력하세요.." size=20></h4>
+        <h4>문의할 내용:</h4>
+        <textarea cols="40%" rows="10%" placeholder="문의사항.."></textarea><br>
+        <button id="submit" onclick="submit()">제출</button>
+        <button id="cancel" onclick="cancel()">취소</button>
+        <br>
+    </form>
         </fieldset>
+        
     </div>
     <footer class="footer">Footer</footer>
+    
 </body>
 </html>
