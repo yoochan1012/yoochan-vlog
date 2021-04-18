@@ -3,7 +3,7 @@ html, body {
     width: 75%;
     margin: 0;
     padding: 0;
-    float: right;
+    margin: auto;
 
     background-color: lightgreen;
 }
@@ -59,4 +59,10 @@ a:hover {
 
 .highlight {
     color:palegreen;
+}
+
+@media only screen and (max-width: 480px) {
+    html, body {
+        width: 100%;
+    }
 }
