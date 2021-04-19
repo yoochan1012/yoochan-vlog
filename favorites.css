@@ -1,0 +1,36 @@
+        
+        .favoritesa {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            margin: 30px;
+            padding: 10px;
+            float: left;
+            background: linear-gradient(30deg, #90f7ec, #32ccbc);
+        }
+
+        .favoritesa:hover {
+            background: linear-gradient(90deg, #70f570, #49c628);
+        }
+        .favoritesb {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            margin: 30px;
+            padding: 10px;
+            float: left;
+            
+            background: linear-gradient(30deg, #81fbb8, #28c76f) no-repeat;
+        }
+
+        .favoritesc {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            margin: 30px;
+            padding: 10px;
+            clear: both;
+            background: linear-gradient(30deg, #fdeb71, #f8d800) no-repeat;
+        }
+
+        
