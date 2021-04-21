@@ -1,6 +1,6 @@
 
 
-.section {
+.video {
     width: 63%;
     height: 75%;
     float: left;
@@ -9,11 +9,11 @@
     text-align: center;
 }
 
-.aside {
+.contact {
     width: 37%;
     height: 75%;
     float: right;
-    background: rgb(220, 2, 50);
+    background: thistle;
     font-size: 230%;
 }
 
