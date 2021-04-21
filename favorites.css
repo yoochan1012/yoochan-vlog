@@ -1,5 +1,5 @@
         
-        .favoritesa {
+        .kbase {
             width: 300px;
             height: 200px;
             border-radius: 10px;
@@ -9,10 +9,10 @@
             background: linear-gradient(30deg, #90f7ec, #32ccbc);
         }
 
-        .favoritesa:hover {
+        .kbase:hover {
             background: linear-gradient(90deg, #70f570, #49c628);
         }
-        .favoritesb {
+        .kfoot {
             width: 300px;
             height: 200px;
             border-radius: 10px;
@@ -22,15 +22,36 @@
             
             background: linear-gradient(30deg, #81fbb8, #28c76f) no-repeat;
         }
+        .kfoot:hover {
+            background: linear-gradient(90deg, #abdcff, #0396ff);
+        }
 
-        .favoritesc {
+        .kakao {
             width: 300px;
             height: 200px;
             border-radius: 10px;
             margin: 30px;
             padding: 10px;
             clear: both;
+            float: left;
             background: linear-gradient(30deg, #fdeb71, #f8d800) no-repeat;
         }
 
-        
+        .konest {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            margin: 30px;
+            padding: 10px;
+            float: left;
+            background: linear-gradient(30deg, #fff6b7, #f6416c) no-repeat;
+        }
+
+        .dark {
+            background-color: darkkhaki;
+            margin: 10px;
+            padding: 10px;
+            width:50%;
+            height:auto;
+            float: left;
+        }
