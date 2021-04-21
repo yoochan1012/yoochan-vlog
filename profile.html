@@ -4,56 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="tmi.css">
 
 
     <style>
-        fieldset {
-            border-color: black;
-            background-color: aquamarine;
-            width: 100%;
-            border-radius: 10px;
-            box-shadow: gold 10px 10px 10px;
-            margin: 30px;
-
-        }
-
-    
-        .name, .univ, .favorites, .game {
-            color: blue;
-        }
-
-        textarea {
-            background-color: lightskyblue;
-            width: auto;
-            height: 16px;
-            float:none;
-        }
-
-        .noresize {
-            resize: none;
-        }
-
         button {
-            background-color: lightgreen;
-            border-color: rgb(255, 255, 74);
-            box-shadow: mediumspringgreen 2px 2px 2px;
-            width: 100px;
             height: 32px;
-            margin: 30px;
-
+            width: 100px;
         }
 
-        h3 {
-            font-family: "배달의민족 한나는 열한살";
-            font-size: 222%;
+        .tablet {
+            background: linear-gradient(45deg, #239fe9, #44d5f3) no-repeat;
+            box-shadow: 3px 3px 3px;
+            margin: 100px;
+            padding: 10px;
+            width: 40em;
         }
-
-        .project {
-            color:blueviolet;
-        }
-       
+        
         @media screen and (max-width: 812px) {
         body, fieldset, .footer {
         width: 100%;}}
@@ -65,44 +33,32 @@
     <sel class="sel">
     <ul>    
             <li><a href="Home_최유찬.html">HomePage</span></a></li>
-            <li><a href="profile.html"><span class="highlight">Profile</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="portfolio.html"><span class="highlight">Portfolio</a></li>
             <li><a href="favorites.html">Favorites</a></li>
+
     </ul>
     </sel>
-    
-    <div class="colour">
-    <fieldset>
-    <h3>Profile</h3>
-        <p class="name">이름: <textarea class="noresize" readonly cols="80%">최유찬</textarea></p>
-        <p class="univ">소속 학과: <textarea class="noresize" readonly cols="80%">정보보호학전공</textarea></p>
-        <p class="favorites">좋아하는 것: <textarea class="noresize" readonly cols="80%">지도, 야구, 축구</textarea></p>
-        <p class="game">좋아하는 게임: <textarea class="noresize" readonly cols="80%">벽돌깨기 퀘스트</textarea></p>
-    </fieldset>
 
-    <p>
-        &nbsp; &nbsp; &nbsp; <b>컬러 바꾸기</b><br>
-        <button onclick="green()">green</button>
-        <button onclick="red()">red</button>
-        <button onclick="blue()">blue</button>
-    </p>
-
-    <p class="ys">
-        <fieldset>
-            <h3>프로젝트</h3>
-                <p>프로젝트명: <textarea class="noresize" readonlt cols="80%"></textarea></p>
-                <p>프로젝트 구성원: <textarea class="noresize" readonlt cols="80%">나 자신</textarea></p>
-                <p>프로젝트에 들어갈 내용: <textarea class="noresize" readonlt cols="80%"></textarea></p>
-                <p class="project">프로젝트 링크</p>
-
-        </fieldset>
-    </p>
+    <div class="tablet">
+            <b>Name</b> &nbsp; 최유찬 <hr>
+            <b>Project</b>
+            <br><br><br><br><br><hr>
+            <b>Awards</b>
+            <br><br><br><br><br><hr>
+            
+    <form><b>Contact</b>
+        <h4>이메일: <input type="email" placeholder="이메일을 입력하세요.." size=20></h4>
+        <h4>문의할 내용:</h4>
+        <textarea cols="50em" rows="5em" placeholder="문의사항.."></textarea><br>
+        <button id="submit" onclick="submit()">제출</button>
+        <button id="cancel" onclick="cancel()">취소</button>
+        <br>
+    </form>
     </div>
-
-    <script src="color.js"></script>
-
     <footer class="footer">Footer<br>
         <p class="info">이 페이지는 최유찬의 페이지입니다.</p>
     </footer>
+    
 </body>
 </html>
