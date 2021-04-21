@@ -16,13 +16,14 @@ html, body {
     text-align: center;
     text-shadow: mediumseagreen 5px 5px 5px;
     font-family: '배달의민족 한나는 열한살';
+    border: orangered 10px dotted;
 
 }
 
 .sel {
     width: 100%;
     height: aito;
-    background-color: magenta;
+    background-color: silver;
     font-size: 230%;
     padding-top: 20px;
     float: left;
