@@ -9,21 +9,18 @@
 
 
     <style>
-        fieldset {
-            background: linear-gradient(45deg, #239fe9, #44d5f3) no-repeat;
-            box-shadow: 3px 3px 3px;
-            margin: 30px;
-
-        }
-
         button {
             height: 32px;
             width: 100px;
         }
 
-        /* form {
-            background-color: chartreuse;
-        } */
+        .tablet {
+            background: linear-gradient(45deg, #239fe9, #44d5f3) no-repeat;
+            box-shadow: 3px 3px 3px;
+            margin: 100px;
+            padding: 10px;
+            width: 40em;
+        }
         
         @media screen and (max-width: 812px) {
         body, fieldset, .footer {
@@ -43,24 +40,21 @@
     </ul>
     </sel>
 
-    <div class="table">
-        <fieldset>
+    <div class="tablet">
             <b>Name</b> &nbsp; 최유찬 <hr>
             <b>Project</b>
             <br><br><br><br><br><hr>
             <b>Awards</b>
             <br><br><br><br><br><hr>
             
-    <form><b>Form</b>
+    <form><b>Contact</b>
         <h4>이메일: <input type="email" placeholder="이메일을 입력하세요.." size=20></h4>
         <h4>문의할 내용:</h4>
-        <textarea cols="40%" rows="10%" placeholder="문의사항.."></textarea><br>
+        <textarea cols="50em" rows="5em" placeholder="문의사항.."></textarea><br>
         <button id="submit" onclick="submit()">제출</button>
         <button id="cancel" onclick="cancel()">취소</button>
         <br>
     </form>
-        </fieldset>
-        
     </div>
     <footer class="footer">Footer<br>
         <p class="info">이 페이지는 최유찬의 페이지입니다.</p>
