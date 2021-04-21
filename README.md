@@ -6,6 +6,7 @@
 
 ⇓ 여기 스크린샷을 클릭하면 내 페이지로 연결돼.
 
-[![페이지](https://user-images.githubusercontent.com/82464095/114691910-1d0a6900-9d53-11eb-9e8f-e63871ea23c5.JPG)](Home_최유찬.html)
+![페이지(](https://user-images.githubusercontent.com/82464095/115528945-72072b80-a2cd-11eb-996d-b32f0beed131.JPG)(Home_최유찬.html)
+
 
 <b>여기 사이트 주소:</b> <a href="https://yoochan1012.github.io/yoochan-vlog/">https://yoochan1012.github.io/yoochan-vlog/</a>
